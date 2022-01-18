@@ -1,0 +1,31 @@
+en
+conf t
+ho pc4
+no ip routing
+ip default-gateway 192.168.40.254
+int e0/0
+no sh
+duplex full
+ip address 192.168.40.100 255.255.255.0
+end
+ 
+
+
+
+en
+conf t
+vtp domain ccna
+vtp password 666
+vtp mo Client
+duplex full
+
+en
+conf t
+int e0/0
+duplex full
+no sh
+
+int e0/0.40
+en do 40
+ip add 192.168.40.254 255.255.255.0
+exit
