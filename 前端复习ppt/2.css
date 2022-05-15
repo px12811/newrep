@@ -1,0 +1,40 @@
+div {
+    margin: 0px;
+    padding: 0px;
+}
+#d1 {
+    width: 200px;
+    height: 350px;
+    background-color: black;
+    position: absolute;
+}
+#d11 {
+    width: 200px;
+    height: 100px;
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0px;
+}
+
+#d21 {
+    width: 100px;
+    height: 200px;
+    background-color: aqua;
+    margin-top: 100px;
+    float: left;
+}
+
+#d22 {
+    width: 100px;
+    height: 200px;
+    background-color: aquamarine;
+    margin-top: 100px;
+    float: right;
+}
+#d31 {
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    bottom: 0px;
+    background-color: blueviolet; 
+}

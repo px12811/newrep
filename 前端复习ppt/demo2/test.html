@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CSS样式表</title>
+	<!-- 3外部样式表 -->
+	<link rel="stylesheet" href="test.css">
+	<style type="text/css">
+	  /*伪类选择器*/
+	   a:link{
+	   	color:#ccc;
+	   }
+	   a:visited{
+	   	color:rgb(0,0,255,0.5);
+	   }
+       a:hover{
+       	color:red;
+       	text-decoration: none;
+       }
+       a:active{
+       	color:#00ff00;
+       }
+       input:focus{
+       	background-color:yellow;
+       }
+       /*伪元素选择器*/
+       p:first-line{
+          background-color: #999;
+       }
+       /*属性选择器*/
+       p[align="center"]{
+       	text-decoration: underline;
+       }
+
+	</style>
+</head>
+<body>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem commodi quibusdam praesentium iusto pariatur error placeat, suscipit fuga facere voluptate est quos reprehenderit magnam non fugiat, quisquam eaque, quia. Non!</p>
+	<a href="#" >超链接</a></br>
+	<input type="text" >
+	<p align="center">hello,welcome to css world!</p>
+	
+
+</body>
+</html>
